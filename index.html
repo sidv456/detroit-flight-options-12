@@ -37,7 +37,7 @@ a{color:inherit}
 .hero .wrap{display:grid;gap:2.25rem 3.5rem;grid-template-columns:1fr}
 @media(min-width:960px){.hero .wrap{grid-template-columns:1.05fr .95fr;align-items:center}}
 .from{margin:0 0 .75rem;font-weight:600;color:var(--taxi);font-size:1rem}
-h1{font-family:var(--display);font-weight:900;font-size:clamp(3.5rem,10.5vw,8.25rem);line-height:.86;letter-spacing:-.005em;margin:0 0 1.5rem}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(3.5rem,9vw,6.75rem);line-height:.86;letter-spacing:-.005em;margin:0 0 1.5rem}
 h1 span{display:block}
 .facts{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:.5rem 2rem;margin:0 0 1.25rem}
 .facts div{min-width:0}
@@ -92,7 +92,7 @@ h2.t{font-family:var(--display);font-weight:900;font-size:clamp(2.6rem,6vw,4.5re
 .pass{position:relative;display:grid;grid-template-columns:1fr;background:var(--paper);border-radius:8px;scroll-margin-top:1.25rem}
 .pass:target{outline:3px solid var(--blue);outline-offset:4px}
 @media(min-width:560px){.pass{grid-template-columns:1fr 12.5rem}}
-.main{padding:1.4rem 1.4rem 1.5rem;min-width:0}
+.pass>.main{padding:1.4rem 1.4rem 1.5rem;min-width:0}
 .top{display:flex;flex-wrap:wrap;align-items:baseline;gap:.15rem .85rem;margin-bottom:1rem}
 .top .num{font-size:.9rem;color:var(--slate);font-weight:600;width:100%}
 .top h3{font-family:var(--display);font-weight:900;font-size:2.4rem;line-height:1;margin:0}
@@ -125,7 +125,7 @@ h2.t{font-family:var(--display);font-weight:900;font-size:clamp(2.6rem,6vw,4.5re
 .stub::after{right:-12px;top:-12px}
 @media(min-width:560px){.stub::before{left:-12px;top:-12px}.stub::after{left:-12px;right:auto;top:auto;bottom:-12px}}
 .stub .lab{font-size:.85rem;color:var(--slate)}
-.stub .tot{font-family:var(--display);font-weight:900;font-size:4rem;line-height:.95;font-variant-numeric:tabular-nums}
+.stub .tot{font-family:var(--display);font-weight:900;font-size:3.6rem;line-height:.95;font-variant-numeric:tabular-nums}
 .stub .pp{font-weight:700;margin-top:.4rem}
 .stub .pp span{font-family:var(--display);font-size:1.4rem;font-weight:800}
 .stub .diff{font-size:.85rem;color:var(--slate);margin-top:.6rem;line-height:1.4}
@@ -160,7 +160,7 @@ footer a{color:#fff}
 <header class="hero" id="top">
   <div class="wrap">
     <div>
-      <p class="from">Sid's trip to Tori, four fares compared</p>
+      <p class="from">Sid and Tori's trip, four fares compared</p>
       <h1><span>Detroit</span><span>flight options</span></h1>
       <dl class="facts">
         <div><dt>Route</dt><dd>Bay Area to Detroit</dd></div>
